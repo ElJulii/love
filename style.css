@@ -97,10 +97,10 @@ p {
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
-    border-top: solid 2px;
     height: auto;
     width: 100%;
-    background-color: blue;
+    background: linear-gradient(to bottom, transparent, #770022 70%);
+    color: #fff;
 }
 
 .img-heart {
@@ -114,14 +114,15 @@ p {
     padding-top: 13%;
     box-sizing: border-box;
     font-size: 45px;
-    color: white;
+    font-family: cursive;
+    color: #fff;
+    letter-spacing: 10px;
 }
 .question-final__box-mix {
     display: flex;
     width: 100%;
     padding: 2% 15% 2% 0;
     box-sizing: border-box;
-
 }
 .question-final-box-question {
     font-family: cursive, Arial;
