@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #f0f;
+    background: linear-gradient(to bottom, black, #ff0088);
 }
 .audio-img {
     width: 100%;
@@ -93,18 +93,14 @@ p {
     font-size: 35px;
 }
 .question-final {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 100px;
     border-top: solid 2px;
     height: auto;
     width: 100%;
     background-color: blue;
-}
-.no-box {
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    border: solid 1px #666;
-    border-radius: 3px;
 }
 
 .img-heart {
@@ -119,4 +115,27 @@ p {
     box-sizing: border-box;
     font-size: 45px;
     color: white;
+}
+.question-final__box-mix {
+    display: flex;
+    width: 100%;
+    padding: 2% 15% 2% 0;
+    box-sizing: border-box;
+
+}
+.question-final-box-question {
+    font-family: cursive, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4em;
+}
+
+.last-title {
+    margin-top: 5%;
+    font-size: 6em;
 }
