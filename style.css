@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #f0f;
+}
+.audio-img {
+    width: 100%;
+    height: auto;
+    background: url("imgs/principal_photo.jpg")
+    center / cover fixed;
+    text-align: center;
+    padding: 10px 0 200px 0;
+    border-bottom: solid 3px;
+}
+
+.month-box {
+    margin-top: 100px;
+    display: flex;
+    width: 90%;
+    height: auto;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: cursive, sans-serif;
+    background-color: black;
+}
+
+.left-box {
+    margin-left: 20px;
+    box-shadow: 40px 40px 60px black;
+}
+
+.right-box {
+    margin-right: 40px;
+    margin-left: auto;
+    box-shadow: -40px 40px 60px black;
+}
+
+.text {
+    color: white;
+    box-sizing: border-box;
+    height: 100%;
+    width: 60%;
+}
+
+.roulette {
+    display: flex;
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.principal-title {
+    width: 60%;
+    margin: 100px auto 30px;
+    font-size: 110px;
+    background-color: #0009;
+    color: #fff;
+    font-family: "Adobe Devanagari", sans-serif;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+audio {
+    width: 500px;
+}
+
+
+.img-box {
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px hotpink;
+}
+
+.arrows {
+    display: flex;
+    font-size: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+.arrows:hover {
+    color: #f08;
+}
+
+h2 {
+    margin: 0;
+    font-size: 70px;
+}
+
+p {
+    text-align: justify;
+    font-size: 35px;
+}
+.question-final {
+    margin-top: 100px;
+    border-top: solid 2px;
+    height: auto;
+    width: 100%;
+    background-color: blue;
+}
+.no-box {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: solid 1px #666;
+    border-radius: 3px;
+}
+
+.img-heart {
+    margin: auto;
+    background: url("imgs/last_photo.jpg") center / cover;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    clip-path: path("M 300, 564 C 120, 456, 0, 300, 0, 180 C 0, 72, 96, 0, 204, 0 C 276, 0, 300, 60, 300, 60 C 300, 60, 324, 0, 396, 0 C 504, 0, 600, 72, 600, 180 C 600, 300, 480, 456, 300, 564 Z");
+    text-align: center;
+    padding-top: 13%;
+    box-sizing: border-box;
+    font-size: 45px;
+    color: white;
+}
