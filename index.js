@@ -222,4 +222,20 @@ arrow_left.forEach((arrow, index) => {
     })
 })
 
+const yes_box = document.getElementById('yes-box');
+const no_box = document.getElementById('no-box');
 
+yes_box.addEventListener('change', () => {
+    if (yes_box.checked) {
+        document.getElementById('modal').style.display = 'flex';
+    }
+})
+
+const modal_close = document.getElementById('close-modal');
+modal_close.addEventListener('click', () => {
+    document.getElementById('modal').style.display = 'none';
+});
+
+no_box.addEventListener('click', () => {
+    alert('¿¡SEGURA!?');
+})

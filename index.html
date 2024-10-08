@@ -174,14 +174,19 @@
                     yes:
                     <input id="yes-box" type="checkbox">
                 </label>
-                <label>
+                <label id="no-box">
                     No:
-                    <input id="no-box" type="checkbox" disabled>
+                    <input type="checkbox" disabled>
                 </label>
-
             </div>
         </div>
-
+    </div>
+    <!-- Modal que aparecerá cuando se marque el checkbox -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p class="modal__yex-text">Sabía que dirías que sí :3</p>
+            <button id="close-modal">Cerrar</button>
+        </div>
     </div>
 <script src="index.js"></script>
 </body>
