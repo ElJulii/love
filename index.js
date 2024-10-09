@@ -225,16 +225,14 @@ arrow_left.forEach((arrow, index) => {
 const yes_box = document.getElementById('yes-box');
 const no_box = document.getElementById('no-box');
 
+const modal = document.getElementById('modal');
+
 yes_box.addEventListener('change', () => {
     if (yes_box.checked) {
-        document.getElementById('modal').style.display = 'flex';
+        modal.setAttribute('open', 'true');
     }
 })
 
-const modal_close = document.getElementById('close-modal');
-modal_close.addEventListener('click', () => {
-    document.getElementById('modal').style.display = 'none';
-});
 
 no_box.addEventListener('click', () => {
     alert('¿¡SEGURA!?');
