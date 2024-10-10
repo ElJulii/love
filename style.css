@@ -4,7 +4,7 @@ body {
 }
 .audio-img {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: url("imgs/principal_photo.jpg")
     center / cover fixed;
     text-align: center;
@@ -51,7 +51,7 @@ body {
 
 .principal-title {
     width: 60%;
-    margin: 100px auto 30px;
+    margin: 20vh auto 30px;
     font-size: 110px;
     background-color: #0009;
     color: #fff;
