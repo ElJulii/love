@@ -121,8 +121,9 @@ p {
 .question-final__box-mix {
     display: flex;
     width: 100%;
-    padding: 2% 15% 2% 0;
+    padding: 1% 15% 0 0;
     box-sizing: border-box;
+    margin-bottom: 0;
 }
 .question-final-box-question {
     font-family: cursive, Arial;
@@ -137,8 +138,9 @@ p {
 }
 
 .last-title {
-    margin-top: 5%;
+    margin: 10% 0 20px;
     font-size: 6em;
+
 }
 
 .modal {
