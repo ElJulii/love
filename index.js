@@ -226,6 +226,7 @@ const yes_box = document.getElementById('yes-box');
 const no_box = document.getElementById('no-box');
 
 const modal = document.getElementById('modal');
+const modal_no_box = document.getElementById('modal-no-box')
 
 yes_box.addEventListener('change', () => {
     if (yes_box.checked) {
@@ -235,5 +236,5 @@ yes_box.addEventListener('change', () => {
 
 
 no_box.addEventListener('click', () => {
-    alert('¿¡SEGURA!?');
+    modal_no_box.setAttribute('open', 'true');
 })
