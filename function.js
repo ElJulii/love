@@ -225,12 +225,12 @@ arrow_left.forEach((arrow, index) => {
 const yes_box = document.getElementById('yes-box');
 const no_box = document.getElementById('no-box');
 
-const modal = document.getElementById('modal');
+const modal_yes_box = document.getElementById('modal-yes-box');
 const modal_no_box = document.getElementById('modal-no-box')
 
 yes_box.addEventListener('change', () => {
     if (yes_box.checked) {
-        modal.setAttribute('open', 'true');
+        modal_yes_box.setAttribute('open', 'true');
     }
 })
 
