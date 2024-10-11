@@ -13,23 +13,28 @@ body {
 }
 
 .month-box {
+    border: solid white 2px;
     margin-top: 100px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 90%;
     height: auto;
     border-radius: 40px;
-    box-sizing: border-box;
     padding: 20px;
+    box-sizing: border-box;
     font-family: cursive, sans-serif;
     background-color: black;
 }
 
 .left-box {
+    padding-left: 25px;
     margin-left: 20px;
     box-shadow: 40px 40px 60px black;
 }
 
 .right-box {
+    padding-right: 25px;
     margin-right: 40px;
     margin-left: auto;
     box-shadow: -40px 40px 60px black;
@@ -38,7 +43,7 @@ body {
 .text {
     color: white;
     box-sizing: border-box;
-    height: 100%;
+    height: auto;
     width: 60%;
 }
 
@@ -46,7 +51,14 @@ body {
     display: flex;
     color: white;
     box-sizing: border-box;
-    margin: auto;
+    align-items: center;
+}
+.roulette__right {
+    margin-left: 30px;
+}
+
+.roulette_left {
+    margin-right: 30px;
 }
 
 .principal-title {
@@ -63,7 +75,6 @@ body {
 audio {
     width: 500px;
 }
-
 
 .img-box {
     width: 400px;
@@ -82,6 +93,8 @@ audio {
 .arrows:hover {
     color: #f08;
 }
+
+
 
 h2 {
     margin: 0;
