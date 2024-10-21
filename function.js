@@ -8,7 +8,8 @@ const img_five_roulette = document.getElementById('five_fth_roulette');
 const img_six_roulette = document.getElementById('six_fth_roulette');
 const img_seven_roulette = document.getElementById('seven_fth_roulette');
 const img_eight_roulette = document.getElementById('eight_fth_roulette');
-const img_nine_roulette = document.getElementById('ninth_fth_roulette')
+const img_nine_roulette = document.getElementById('nine_fth_roulette');
+const img_eleven_roulette = document.getElementById('ten_fth_roulette');
 
 const arrow_left = document.querySelectorAll('.arrow_left');
 const arrow_right = document.querySelectorAll('.arrow_right');
@@ -90,10 +91,18 @@ const imgs_ninth_month = [
     'imgs/ninth_month/9_8_pht.jpg',
     'imgs/ninth_month/9_9_pht.jpg',
 ]
+
+const imgs_eleventh_month = [
+    'imgs/eleventh_month/11_1_fth.jpeg',
+    'imgs/eleventh_month/11_2_fth.jpeg',
+    'imgs/eleventh_month/11_3_fth.jpeg',
+    'imgs/eleventh_month/11_4_fth.jpeg',
+    'imgs/eleventh_month/11_5_fth.jpeg'
+]
 //ids
 let i_0_month = 0, i_1_month = 0, i_2_month = 0, i_3_month = 0
 let i_4_month = 0, i_5_month = 0, i_6_month = 0, i_7_month = 0
-let i_8_month = 0, i_9_month = 0;
+let i_8_month = 0, i_9_month = 0, i_11_month = 0;
 //starter image
 img_zero_roulette.src = imgs_zer_month[i_0_month];
 img_one_roulette.src = imgs_first_month[i_1_month];
@@ -104,7 +113,8 @@ img_five_roulette.src = imgs_fifth_month[i_5_month];
 img_six_roulette.src = imgs_sixth_month[i_6_month];
 img_seven_roulette.src = imgs_seventh_month[i_7_month];
 img_eight_roulette.src = imgs_eight_month[i_8_month];
-img_nine_roulette.src = imgs_ninth_month[0];
+img_nine_roulette.src = imgs_ninth_month[i_9_month];
+img_eleven_roulette.src = imgs_eleventh_month[i_11_month];
 
 arrow_right.forEach((arrow, index) => {
     arrow.addEventListener(('click'), () => {
@@ -158,6 +168,11 @@ arrow_right.forEach((arrow, index) => {
                 i_9_month++;
                 if (i_9_month >= imgs_ninth_month.length) i_9_month = 0;
                 img_nine_roulette.src = imgs_ninth_month[i_9_month];
+                break;
+            case 10:
+                i_11_month++;
+                if (i_11_month >= imgs_eleventh_month.length) i_11_month = 0;
+                img_eleven_roulette.src = imgs_eleventh_month[i_11_month];
                 break;
         }
     })
@@ -217,6 +232,11 @@ arrow_left.forEach((arrow, index) => {
                 i_9_month--;
                 if (i_9_month < 0) i_9_month = imgs_ninth_month.length - 1;
                 img_nine_roulette.src = imgs_ninth_month[i_9_month];
+                break;
+            case 10:
+                i_11_month--;
+                if (i_11_month < 0) i_11_month = imgs_eleventh_month.length - 1;
+                img_eleven_roulette.src = imgs_eleventh_month[i_11_month];
                 break;
         }
     })
