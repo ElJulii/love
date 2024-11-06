@@ -295,4 +295,10 @@ p {
     .arrows {
         font-size: 46px;
     }
+
+    /*modals */
+
+    .modal-content {
+        margin: 50% 13% auto auto;
+    }
 }
