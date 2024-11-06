@@ -40,6 +40,7 @@ audio {
 }
 
 .arrow-down__header {
+    margin-bottom: 20px;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -219,8 +220,13 @@ p {
 .modal__yex-text, .modal-content {
     text-align: center;
 }
+@media screen and (max-width: 800px) {
+    .arrows {
+        font-size: 70px;
+    }
+}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     /*header section*/
     .audio-img {
         flex-direction: column;
@@ -238,5 +244,29 @@ p {
     }
 
     /*body section*/
+    .month-box {
+        margin: 15% auto;
+        box-shadow: none;
+    }
+    .text h2 {
+        font-size: 50px;
+    }
+
+    .text p {
+        font-size: 15px;
+    }
+
+    .roulette {
+        margin: auto;
+    }
+
+    .roulette img {
+        width: 80%;
+        height: auto;
+    }
+
+    .arrows {
+        font-size: 46px;
+    }
 
 }
