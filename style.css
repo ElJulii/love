@@ -39,6 +39,15 @@ audio {
     flex-grow: 1;
 }
 
+.arrow-down__header {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-sizing: border-box;
+}
 /*Body section*/
 
 .month-box {
@@ -209,4 +218,25 @@ p {
 
 .modal__yex-text, .modal-content {
     text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    /*header section*/
+    .audio-img {
+        flex-direction: column;
+        justify-content: start;
+        gap: 7rem;
+
+    }
+    .audio-img h1 {
+        padding: 10px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .audio__sources {
+        width: 80%;
+    }
+
+    /*body section*/
+
 }
