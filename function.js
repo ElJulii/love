@@ -105,6 +105,11 @@ const imgs_twelfth_month = [
     'imgs/one_year/12_1_pht.jpg',
     'imgs/one_year/12_2_pht.jpg',
     'imgs/one_year/12_3_pht.jpg',
+    'imgs/one_year/12_4_pht.jpg',
+    'imgs/one_year/12_5_pht.jpg',
+    'imgs/one_year/12_6_pht.jpg',
+    'imgs/one_year/12_7_pht.jpg',
+    'imgs/one_year/12_8_pht.jpg',
 ]
 
 //ids
@@ -255,7 +260,7 @@ arrow_left.forEach((arrow, index) => {
             case 11:
                 i_12_month--;
                 if (i_12_month < 0) i_12_month = imgs_twelfth_month.length - 1;
-                img_twelve_roulette.src = imgs_twelfth_month[i_11_month];
+                img_twelve_roulette.src = imgs_twelfth_month[i_12_month];
                 break;
         }
     })
